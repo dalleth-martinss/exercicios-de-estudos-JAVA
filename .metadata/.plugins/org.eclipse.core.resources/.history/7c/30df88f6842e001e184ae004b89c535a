@@ -1,0 +1,24 @@
+package exercicio;
+
+import java.util.Locale;
+
+public class AtividadeMatematica {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		
+		
+		double x = 3.0;
+		double y = 4.0;
+		double z = -5.0;
+		double A, B, C;
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

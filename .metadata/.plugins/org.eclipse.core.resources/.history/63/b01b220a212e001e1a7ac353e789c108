@@ -1,0 +1,14 @@
+package exercicio;
+
+public class Atividade1 {
+
+	public static void main(String[] args) {
+		
+	String product = "Computer";
+		
+		System.out.println(product);
+		
+
+	}
+
+}

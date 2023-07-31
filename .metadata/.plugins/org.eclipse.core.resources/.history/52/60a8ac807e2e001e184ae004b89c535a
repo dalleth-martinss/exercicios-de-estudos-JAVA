@@ -1,0 +1,44 @@
+package exercicio;
+
+import java.util.Scanner;
+
+public class EntradaDados {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Qual é seu nome? ");
+		String x;
+		x = sc.next();
+		//System.out.println(x); Se ativar, vai ficar repetido.
+		
+	
+		System.out.println("Qual é a sua idade? ");
+		int y;
+		y = sc.nextInt();
+		//System.out.println(y);
+		
+		System.out.println("Digite uma letra; ");
+		char t;
+		t = sc.next().charAt(0);
+		System.out.println("==========FIM=========");
+		
+		System.out.println("DADOS DIGITADOS");
+		int i;
+		String  s1, s2, s3;
+		
+		x = sc.nextInt();
+		s1 = sc.nextLine();
+		s2 = sc.nextLine();
+		s3 = sc.nextLine();
+		
+		
+		
+		
+		
+		sc.close();
+
+	}
+
+}
