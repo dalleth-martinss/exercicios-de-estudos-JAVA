@@ -26,10 +26,10 @@ public class Atividade1 {
 				
 	 	System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", nome, idade, renda);
 	 	
-		// MARCADORES DE VARIAVÉIS -> %f = PONTO FLUTUANTE
-	 	// MARCADORES DE VARIAVÉIS -> %d = INTEIRO
-	 	// MARCADORES DE VARIAVÉIS -> %s = TEXTO
-	 	// MARCADORES DE VARIAVÉIS -> %n = QUEBRA DE LINHA
+		// MARCADORES DE VARIÁVEIS -> %f = PONTO FLUTUANTE
+	 	// MARCADORES DE VARIÁVEIS -> %d = INTEIRO
+	 	// MARCADORES DE VARIÁVEIS -> %s = TEXTO
+	 	// MARCADORES DE VARIÁVEIS -> %n = QUEBRA DE LINHA
 	 	
 	}
 
