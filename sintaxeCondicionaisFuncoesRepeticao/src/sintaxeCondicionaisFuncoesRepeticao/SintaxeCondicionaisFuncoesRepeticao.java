@@ -1,13 +1,13 @@
-package exercicioEstruturasRepetitivas;
+package sintaxeCondicionaisFuncoesRepeticao;
 
 import java.util.Scanner;
 
-public class EstruturaRepetitiva {
+public class SintaxeCondicionaisFuncoesRepeticao {
 
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-				
+		
 		while (true) {
 			System.out.println("Digite 3 numeros, ou digite 0 para sair ");
 			
@@ -33,11 +33,32 @@ public class EstruturaRepetitiva {
 			else {
 				System.out.println( "Digite numeros diferentes: ");
 			}
-		
-	}	
-		
-		sc.close();
-		
+			
+			int higher = max(a, b, c);
+			showResult(higher);
+		}	
+			
+			sc.close();
 	}
-
+	// esta funcao recebe 3 valores e retorna o maior deles
+	public static int max(int x, int y, int z) {
+		int aux;//iniciada sem atribuir valor
+		
+		//condição testa se x for maior que y = true e x maior z = true vai retornar o valor de x
+		if(x > y && x > z) {  
+			aux = x;
+		} else if (y > z) {
+			aux = y;
+		}
+		else {
+			aux = z;
+		}
+		return aux;
+	}
+	// esta função recebe um valor e imprime na tela concatenado, mas não retorna nada, pois é do tipo vazia.
+	public static void showResult(int value) {
+		System.out.println("Higher = " + value);
+	}
 }
+
+
